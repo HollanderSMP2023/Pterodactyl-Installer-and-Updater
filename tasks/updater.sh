@@ -38,5 +38,13 @@
   echo "Set permissions"
   sudo chmod 777 *
   
-  echo "Load Addons"
-  bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/script.sh)
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
+  echo "Done!"
