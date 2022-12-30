@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-SCRIPT_VERSION="V1"
+SCRIPT_VERSION="Version 1.0"
 
 clear
 echo
