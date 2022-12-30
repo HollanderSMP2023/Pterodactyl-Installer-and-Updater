@@ -17,26 +17,7 @@
   echo "cd pterodactyl"
   cd /var/www/pterodactyl
   
-  echo "Yarn"
-  npm i -g yarn
+  echo "Wings"
+  wings --debug
   
-  echo "Updating DB"
-  npx update-browserslist-db@latest
-  
-  echo "Yarn"
-  yarn install
-  
-  echo "Updating DB"
-  npx update-browserslist-db@latest
-  
-  echo "Yarn production"
-  yarn build:production
-  
-  echo "Set permissions"
-  chown -R www-data:www-data *
-  
-  echo "Set permissions"
-  sudo chmod 777 *
-  
-  echo "Load Addons"
-  bash <(curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V1.10.1/resources/script.sh)
+ 
