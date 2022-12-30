@@ -1,4 +1,4 @@
-php /var/www/pterodactyl/artisan down
+php /var/www/pterodactyl/artisan up
 cd /var/www/pterodactyl
 DIR="/var/www/pterodactyl/backup"
 if [ -d "$DIR" ]; then
@@ -26,11 +26,3 @@ else
    cp -r public/* backup/public/
    cp tailwind.config.js backup/
    echo "Created Backup going furthur"
-then
-
-yarn install
-yarn build:production
-#clear
-chown -R www-data:www-data /var/www/pterodactyl/*
-php /var/www/pterodactyl/artisan up
-echo "Backup Created!"
