@@ -1,6 +1,10 @@
 #!/bin/sh
   echo "Enter Root Mode"
   sudo su
+  
+  echo "Updating Host"
+  sudo apt update
+  sudo apt upgrade -y
 
   echo "Updating DB"
   npx update-browserslist-db@latest
