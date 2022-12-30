@@ -18,6 +18,6 @@
   cd /var/www/pterodactyl
   
   echo "Wings"
-  wings debug--
+  wings
   
  
