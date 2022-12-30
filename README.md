@@ -3,5 +3,5 @@
 # Get Started:
 
 ```
-curl https://raw.githubusercontent.com/HollanderSMPW/Ptero_addon_install_1/main/script.sh?token=GHSAT0AAAAAAB44VSDN3WKNR5IBH6LCRRCMY5PAM5A | sh
+curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/script.sh?token=GHSAT0AAAAAAB44VSDNMZ2B4CGS5VKGNJE4Y5PBAGQ | sh
 ```
