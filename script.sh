@@ -46,15 +46,6 @@ if [ $choice == "5" ]
 fi
 if [ $choice == "6" ]
     then
-    echo "Installing Sidebar..."
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/Sidebar/install.sh)
-fi
-if [ $choice == "7" ]
-    then
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/restore.sh)
-fi
-if [ $choice == "8" ]
-    then
     echo "Canceling..."
     exit 0
 fi
