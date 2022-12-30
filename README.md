@@ -1,4 +1,4 @@
-# Ptero Addon Install
+# Pterodactyl-Updater
 
 # Get Started:
 
