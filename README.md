@@ -1,16 +1,16 @@
 # Pterodactyl-Updater
 
 # RUN IN ROOT: 'sudo su'
-#1. Backup:
+#1. Make Panel Online!:
 
 ```
-curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Backup.sh | sh
+curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Up.sh | sh
 ```
 
-#2. Restore Backup:
+#2. Make Panel Offline!:
 
 ```
-curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Restore_Backup.sh | sh
+curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Down.sh | sh
 ```
 
 #3. Themes:
