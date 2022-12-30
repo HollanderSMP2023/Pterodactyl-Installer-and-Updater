@@ -16,7 +16,7 @@ curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/ta
 #3. Themes:
 
 ```
-curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Themes.sh | sh
+curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/DarkNRed%20Files/Install.sh | sh
 ```
 
 #4. Updater:
