@@ -21,6 +21,9 @@ echo "4. Backup the panel files"
 echo "5. Restore from backup"
 echo "6. Close / Cancel"
 read -p "Please enter a number: " choice
+read -p "Please enter a number: " choice
+read -p "Please enter a number: " choice
+read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNColor.sh)
