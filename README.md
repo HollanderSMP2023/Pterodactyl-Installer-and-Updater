@@ -1,5 +1,6 @@
 # Pterodactyl-Updater
 
+# RUN IN ROOT: 'sudo su'
 #1. Backup:
 
 ```
