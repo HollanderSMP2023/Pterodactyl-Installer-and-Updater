@@ -42,13 +42,9 @@
   echo "Set permissions"
   sudo chmod 777 *
   
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
-  echo "Done!"
+  echo "Updating Host"
+  sudo apt update
+  sudo apt upgrade -y
+  
+  
   echo "Done!"
