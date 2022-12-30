@@ -24,27 +24,27 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     echo "Update some stuff..."
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNColor.sh)
+    bash <(curl -s https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh)
 fi
 if [ $choice == "2" ]
     then
     echo "Wings debug..."
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/Addons.sh)
+    bash <(curl -s https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh)
 fi
 if [ $choice == "3" ]
     then
     echo "Install DarkNred Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/ParticleJS/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh)
 fi
 if [ $choice == "4" ]
     then
     echo "Backup the panel files..."
-    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh)
 fi
 if [ $choice == "5" ]
     then
     echo "Restore from backup..."
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh)
 fi
 if [ $choice == "6" ]
     then
