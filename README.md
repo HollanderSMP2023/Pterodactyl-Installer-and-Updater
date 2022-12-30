@@ -30,3 +30,8 @@ curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/ta
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Wings.sh | sh
 ```
+
+#6. Restore to default:
+```
+curl https://raw.githubusercontent.com/Humpol/pt-themes/main/update.sh | sh
+```
