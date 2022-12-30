@@ -26,11 +26,7 @@ else
    cp -r public/* backup/public/
    cp tailwind.config.js backup/
    echo "Created Backup going furthur"
-fi
 
-sudo curl https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNRed/DarkNRed.tar.gz | sudo tar -xz
-#clear
-cd /var/www/pterodactyl
 
 yarn install
 yarn build:production
