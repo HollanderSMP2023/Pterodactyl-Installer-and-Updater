@@ -1,6 +1,6 @@
 #!/bin/sh
   echo "Enter Root Mode"
-  sudo -i
+  sudo su
 
   echo "Updating DB"
   npx update-browserslist-db@latest
