@@ -26,7 +26,7 @@ else
    cp -r public/* backup/public/
    cp tailwind.config.js backup/
    echo "Created Backup going furthur"
-
+fi
 
 yarn install
 yarn build:production
