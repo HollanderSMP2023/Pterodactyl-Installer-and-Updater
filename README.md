@@ -5,7 +5,7 @@
 #1. Install Pterodactyl and Wings:
 
 ```
-bash <(curl -s https://pterodactyl-installer.se)
+curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Installer-and-Updater/main/Setup.sh | sh
 ```
 
 #2. Make Panel Online!:
