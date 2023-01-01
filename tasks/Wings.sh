@@ -3,7 +3,7 @@
   sudo -i
 
   echo "Updating DB"
-  npx update-browserslist-db@latest
+  npx browserslist@latest --update-db
   
   echo "Install LSB Release"
   apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
