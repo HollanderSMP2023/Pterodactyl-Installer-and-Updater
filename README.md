@@ -1,37 +1,44 @@
 # Pterodactyl-Updater
 
 # RUN IN ROOT: 'sudo su'
-#1. Make Panel Online!:
+
+#1. Install Pterodactyl and Wings:
+
+```
+bash <(curl -s https://pterodactyl-installer.se)
+```
+
+#2. Make Panel Online!:
 
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Up.sh | sh
 ```
 
-#2. Make Panel Offline!:
+#3. Make Panel Offline!:
 
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Down.sh | sh
 ```
 
-#3. Themes:
+#4. Themes:
 
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/DarkNRed%20Files/Install.sh | sh
 ```
 
-#4. Updater:
+#5. Updater:
 
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/updater.sh | sh
 ```
 
-#5. Wings:
+#6. Wings status:
 
 ```
 curl https://raw.githubusercontent.com/HollanderSMPW/Pterodactyl-Updater/main/tasks/Wings.sh | sh
 ```
 
-#6. Restore to default:
+#7. Restore to default:
 ```
 curl https://raw.githubusercontent.com/Humpol/pt-themes/main/update.sh | sh
 ```
