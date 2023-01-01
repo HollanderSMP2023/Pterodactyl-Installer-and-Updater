@@ -7,7 +7,7 @@
   sudo apt upgrade -y
 
   echo "Updating DB"
-  npx update-browserslist-db@latest
+  npx browserslist@latest --update-db
   
   echo "Install LSB Release"
   apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
@@ -25,13 +25,13 @@
   npm i -g yarn
   
   echo "Updating DB"
-  npx update-browserslist-db@latest
+  npx browserslist@latest --update-db
   
   echo "Yarn"
   yarn install
   
   echo "Updating DB"
-  npx update-browserslist-db@latest
+  npx browserslist@latest --update-db
   
   echo "Yarn production"
   yarn build:production
